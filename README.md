@@ -1,6 +1,6 @@
 # Enigma
 
-You may have heard of the Enigma machines that Germany used during World War II to encrypt its military communications. If you have not, I recommend you read the wikipedia page on them, or similar resource, especially the part about design and operation. This project is a simulator for a generalized version of this machine (which itself had several different versions.) This program takes descriptions of possible initial configurations of the machine and messages to encode or decode (the Enigma algorithms were reciprocal, meaning that encryption is its own inverse operation.)
+You may have heard of the Enigma machines that Germany used during World War II to encrypt its military communications. This project is a simulator for a generalized version of this machine (which itself had several different versions.) This program takes descriptions of possible initial configurations of the machine and messages to encode or decode (the Enigma algorithms were reciprocal, meaning that encryption is its own inverse operation.)
 
 The Enigmas effect a substitution cipher on the letters of a message. That is, at any given time, the machine performs a permutation—a one-to-one mapping—of the alphabet onto itself. The alphabet consists solely of the 26 letters in one case (there were various conventions for spaces and punctuation).
 
